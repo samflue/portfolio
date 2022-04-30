@@ -14,7 +14,6 @@ const IndexPage = ({ location, data }) => (
     <StyledMainContainer className="fillHeight">
       <Hero data={data.hero.edges} />
       <About data={data.about.edges} />
-      <Jobs data={data.jobs.edges} />
       <Featured data={data.featured.edges} />
       <Projects data={data.projects.edges} />
       <Contact data={data.contact.edges} />
@@ -39,6 +38,7 @@ export const pageQuery = graphql`
             name
             subtitle
             buttonText
+            skillset
           }
           html
         }
@@ -94,8 +94,7 @@ export const pageQuery = graphql`
               }
             }
             tech
-            github
-            external
+            
           }
           html
         }
@@ -113,9 +112,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             tech
-            github
-            external
-          }
+ }
           html
         }
       }

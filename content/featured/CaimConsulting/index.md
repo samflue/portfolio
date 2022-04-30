@@ -1,16 +1,11 @@
 ---
 date: '1'
-title: 'Caim Consulting'
-cover: 'demo1.png'
-github: 'https://github.com/caimconsulting/caim-consulting-website'
-external: 'https://caimconsulting.in/'
+title: 'Integrated Spotify Player'
+cover: 'spotify-player-01.png'
 tech:
-  - HTML
-  - CSS
-  - Javascript
-  - Bootstrap
+
 
 showInProjects: true
 ---
 
-Collaborated with the [Developer Team](https://caimconsulting.in/developers/?) to develop the front-end and deploy the website on Heroku for a pro-bono legal startup [Caim Consulting](https://caimconsulting.in/).
+I was hired to integrate a Spotify Player into my clients website, to allow users to see the song they are listening to, and to allow them to skip to the next song.

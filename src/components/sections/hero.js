@@ -43,6 +43,13 @@ const StyledSubtitle = styled.h3`
   ${media.phablet`font-size: 50px;`};
   ${media.phone`font-size: 40px;`};
 `;
+const StyledSkills = styled.h3`
+margin-top: 15px;
+width: 50%;
+max-width: 500px;
+font-weight: 500;
+letter-spacing: 2px;
+`;
 const StyledDescription = styled.div`
   margin-top: 25px;
   width: 50%;
@@ -75,6 +82,9 @@ const Hero = ({ data }) => {
   const three = () => (
     <StyledSubtitle style={{ transitionDelay: '300ms' }}>{frontmatter.subtitle}</StyledSubtitle>
   );
+  const threeone = () => (
+    <StyledSkills style={{ transitionDelay: '300ms' }}>{frontmatter.skillset}</StyledSkills>
+  );
   const four = () => (
     <StyledDescription
       style={{ transitionDelay: '400ms' }}
@@ -87,7 +97,7 @@ const Hero = ({ data }) => {
     </div>
   );
 
-  const items = [one, two, three, four, five];
+  const items = [one, two, three, threeone, four, five];
 
   return (
     <StyledContainer>

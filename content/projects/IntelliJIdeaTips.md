@@ -1,12 +1,9 @@
 ---
 date: '2021-06-21'
-title: 'IntelliJ Idea Tips & Tricks'
-github: 'https://github.com/chandrikadeb7/IntelliJ-Idea-Tips-n-Tricks'
-external: 'https://chandrikadeb7.github.io/IntelliJ-Idea-Tips-n-Tricks/'
+title: 'News App Design'
 tech:
-  - IntelliJ Idea
-company: 'Amdocs'
+  - Figma
 showInProjects: true
 ---
 
-IntelliJ Idea Tips and Tricks for Java/Spring Microservices Handling
+Create the design of a mobile app for a News Company.

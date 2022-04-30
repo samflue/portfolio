@@ -47,7 +47,7 @@ const Social = ({ isHome }) => (
         socialMedia.map(({ url, name }, i) => (
           <li key={i}>
             <StyledLink
-              href={url}
+              
               target="_blank"
               rel="nofollow noopener noreferrer"
               aria-label={name}>

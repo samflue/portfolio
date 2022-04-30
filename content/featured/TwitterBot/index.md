@@ -1,14 +1,10 @@
 ---
 date: '2'
-title: 'GirlScript Twitter Bot'
-cover: 'bot.png'
-github: 'https://github.com/chandrikadeb7/Girlscript-Twitter-Bot'
-external: 'https://twitter.com/girlscript_bot'
+title: 'Banking App Design'
+cover: 'bank-app.jpg'
 tech:
-  - Python
-  - tweepy
-  - Twitter API
+  - Figma
 showInProjects: true
 ---
 
-A Twitter Bot for [GirlScript Foundation](https://www.girlscript.tech/) that automatically retweets, favourites the tweets and follows the users who tweet with hashtag #girlscript. Checkout my tech blog on how to create it [HERE](https://www.geeksforgeeks.org/how-to-make-a-twitter-bot-in-python/)
+Designed a Banking App. The client wanted a simple banking app designed, it needed to be easy to use and easy to understand for the user.

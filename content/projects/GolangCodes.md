@@ -1,13 +1,11 @@
 ---
 date: '2022-02-01'
-title: 'Learn Beginner Golang'
-github: 'https://github.com/chandrikadeb7/learning-easy-golang'
-external: ''
+title: 'Web App Landing Page Design & Develop'
 tech:
-  - Go
-  - Rest API
+  - Gatsby
+  - Netlify  
 company: ''
 showInProjects: true
 ---
 
-Collection of small code gists along my Golang learning journey
+Create a web app landing page, using Gatsby.

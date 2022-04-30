@@ -1,16 +1,8 @@
 ---
 date: '2020-09-16'
-title: '100DaysOfCode'
-github: 'https://github.com/chandrikadeb7/100DaysOfCode'
-external: ''
-tech:
-  - Kotlin/Java
-  - Spring Microservices
-  - Javascript
-  - CSS
-  - Python
-company: ''
+title: 'Logo & Branding for Crypto Startup'
+
 showInProjects: true
 ---
 
-Repository dedicated to my #100DaysOfCode journey
+Hired to design the Logo and Branding for a Crypto Startup Company.
