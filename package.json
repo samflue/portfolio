@@ -1,11 +1,11 @@
 {
-  "name": "v2",
-  "description": "Personal Website V2",
+  "name": "portfolio",
+  "description": "Portfolio",
   "version": "1.0.0",
-  "author": "Chandrika Deb <chandrikadeb7@gmail.com>",
+  "author": "SF_DEV",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chandrikadeb7/chandrikadeb7.github.io"
+    "url": ""
   },
   "keywords": [
     "gatsby"
@@ -77,5 +77,8 @@
     "husky": "^7.0.4",
     "lint-staged": "^12.3.2",
     "prettier": "^2.5.1"
-  }
+  },
+  "engines": {
+    "node": "14.15.0"
+}
 }
