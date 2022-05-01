@@ -6,7 +6,7 @@ module.exports = {
     'software developer, software engineer, content freelancer, web developer, java developer, graphic design, front end, web apps, full stack',
   siteUrl: 'https://github.com/BlocLab/portfolio',
   siteLanguage: 'en_UK',
-  googleAnalyticsID: '',
+  googleAnalyticsID: 'UA-227601057-1',
   googleVerification: '',
   name: 'SF_Dev',
   location: 'London, UK',
