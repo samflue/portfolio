@@ -44,11 +44,11 @@ const StyledSubtitle = styled.h3`
   ${media.phone`font-size: 40px;`};
 `;
 const StyledSkills = styled.h3`
-margin-top: 15px;
-width: 50%;
-max-width: 500px;
-font-weight: 500;
-letter-spacing: 2px;
+  margin-top: 15px;
+  width: 50%;
+  max-width: 500px;
+  font-weight: 500;
+  letter-spacing: 2px;
 `;
 const StyledDescription = styled.div`
   margin-top: 25px;
@@ -93,7 +93,7 @@ const Hero = ({ data }) => {
   );
   const five = () => (
     <div style={{ transitionDelay: '500ms' }}>
-      <StyledEmailLink href={`mailto:${email}`}>Contact Me</StyledEmailLink>
+      <StyledEmailLink href={`mailto:${email}`}>Get In Touch</StyledEmailLink>
     </div>
   );
 

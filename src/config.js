@@ -1,14 +1,14 @@
 module.exports = {
-  siteTitle: 'SF_DEV | Front End Developer | Graphic Designer',
+  siteTitle: 'Bloc Labs | Front End Development Agency | Graphic Design',
   siteDescription:
-    'SF_Dev is a UK based Developer & Designer that creates a captivating user experience. I like to create innovative Digital Products.',
+    'Bloc Labs is a UK based  Website Developer & Design Agency that creates a captivating user experience. We like to create innovative Digital Products.',
   siteKeywords:
     'software developer, software engineer, content freelancer, web developer, java developer, graphic design, front end, web apps, full stack',
   siteUrl: 'https://github.com/BlocLab/portfolio',
   siteLanguage: 'en_UK',
   googleAnalyticsID: 'UA-227601057-1',
   googleVerification: '',
-  name: 'SF_Dev',
+  name: 'Bloc Labs',
   location: 'London, UK',
   email: 'bloclabdev@gmail.com',
   github: '',

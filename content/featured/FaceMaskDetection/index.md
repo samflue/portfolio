@@ -8,6 +8,4 @@ tech:
 showInProjects: true
 ---
 
-I created an online movie streaming application. The client requested features that mimic other available streaming platforms. 
-
-
+We created an online movie streaming application. The client requested features that mimic other available streaming platforms.

@@ -8,4 +8,4 @@ tech:
 showInProjects: true
 ---
 
-I was asked to create the the website for a smaller independent business aimed a Local Customers.
+We was asked to create the the website for a smaller independent business aimed a Local Customers.

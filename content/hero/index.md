@@ -1,11 +1,11 @@
 ---
-title: 'Hello World! My name is'
-name: 'Sam'
-subtitle: 'I Love Creating Things!'
-buttonText: 'Contact Me'
+title: 'Hello World! Our name is'
+name: 'Bloc Labs'
+subtitle: 'We Love Creating Things!'
+buttonText: 'Get In Touch'
 skillset: 'Front End / Graphic & UI/UX / SEO'
 ---
 
-I am a UK based Developer & Designer that creates a captivating user experience. I like to create innovative Digital Products.
+We are a UK based Website Development & Creative Agency that creates a captivating user experience. We like to create innovative Digital Products.
 
 Development, UI/UX, and Design. Creating outstanding websites is the focus.

@@ -6,4 +6,4 @@ tech:
 showInProjects: true
 ---
 
-Design an Ecommerce store using Figma. I was asked to make the store feel futuristic and "different" from the rest.
+Design an Ecommerce store using Figma. We was asked to make the store feel futuristic and "different" from the rest.
