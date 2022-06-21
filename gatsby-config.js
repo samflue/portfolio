@@ -5,7 +5,7 @@ module.exports = {
     title: config.siteTitle,
     siteUrl: config.siteUrl,
     description: config.siteDescription,
-    image: '/images/og.png',
+    image: 'src/images/profile-01.png',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,7 +19,7 @@ module.exports = {
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingIds: [
-          "G-FNL4WT955H", // Google Analytics / GA
+          'G-FNL4WT955H', // Google Analytics / GA
         ],
         gtagConfig: {
           anonymize_ip: true,
@@ -38,7 +38,7 @@ module.exports = {
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
-        icon: 'src/images/logo.png',
+        icon: 'src/images/profile-01.png',
       },
     },
     `gatsby-plugin-offline`,
@@ -154,14 +154,12 @@ module.exports = {
         ],
       },
     },
-    
+
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: config.googleAnalyticsID,
-      }, 
+      },
     },
-   
-  
   ],
 };
