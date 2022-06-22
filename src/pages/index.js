@@ -5,6 +5,7 @@ import { Layout, Hero, About, Featured, Projects, Contact } from '@components';
 import styled from 'styled-components';
 import { Main } from '@styles';
 import { theme, media } from '@styles';
+import '../styles/form.css';
 
 const StyledMainContainer = styled(Main)`
   counter-reset: section;
@@ -31,7 +32,23 @@ const IndexPage = ({ location, data }) => (
       <Featured data={data.featured.edges} />
       <Projects data={data.projects.edges} />
       <Contact data={data.contact.edges} />
-      <StyledTitle>264 Websites Completed.... and Counting</StyledTitle>
+      <form method="post" action="https://getform.io/f/edeb6234-fc5e-4243-906f-c593e86d97ee">
+        <input name="name" type="text" className="feedback-input" placeholder="Name" />
+        <input name="email" type="text" className="feedback-input" placeholder="Email" />
+        <textarea
+          name="text"
+          className="feedback-input"
+          placeholder="Tell us a little bit about what you need"></textarea>
+        <input type="hidden" name="subscribe" value="no" className="feedback-input" /> Number of
+        employees
+        <select name="Number of employees" className="feedback-input">
+          <option value="1-10">0-10</option>
+          <option value="10-50">10-50</option>
+          <option value="50+">50+</option>
+        </select>
+        <input type="submit" value="SUBMIT" />
+      </form>
+      <StyledTitle>264 Projects Completed.... and Counting</StyledTitle>
     </StyledMainContainer>
   </Layout>
 );

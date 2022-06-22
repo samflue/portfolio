@@ -16,6 +16,7 @@ const StyledContainer = styled(Section)`
 `;
 const StyledTitle = styled.h4`
   margin: 0 auto;
+  padding-bottom: 20px;
   font-size: ${fontSizes.h3};
   ${media.tablet`font-size: 24px;`};
   a {
@@ -38,7 +39,7 @@ const StyledGrid = styled.div`
 
   .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: 250px 250px 250px;
     grid-gap: 5px;
     position: relative;
     ${media.desktop`grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));`};
@@ -147,9 +148,7 @@ const Projects = ({ data }) => {
   return (
     <StyledContainer>
       <StyledTitle ref={revealTitle}>Other Noteworthy Projects</StyledTitle>
-      <StyledArchiveLink >
-        Just a few more...
-      </StyledArchiveLink>
+      <StyledArchiveLink>Just a few more...</StyledArchiveLink>
 
       <StyledGrid>
         <TransitionGroup className="projects">
