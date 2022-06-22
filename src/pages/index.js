@@ -5,6 +5,8 @@ import { Layout, Hero, About, Featured, Projects, Contact } from '@components';
 import styled from 'styled-components';
 import { Main } from '@styles';
 import { theme, media } from '@styles';
+const { colors, fontSizes, fonts } = theme;
+
 import '../styles/form.css';
 
 const StyledMainContainer = styled(Main)`
@@ -12,7 +14,7 @@ const StyledMainContainer = styled(Main)`
 `;
 const StyledTitle = styled.h4`
   margin: auto;
-  font-size: 60px;
+  font-size: 50px;
   ${media.desktop`font-size: 50px;`};
   ${media.tablet`font-size: 40px;`};
   ${media.tablet`width: 90%;`};
@@ -22,13 +24,36 @@ const StyledTitle = styled.h4`
   justify-content: center;
   align-items: center;
 `;
+const StyledHeader = styled.div`
+  background: #64ffda;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  text-align: center;
+  color: #0a192f;
+  font-weight: bold;
+`;
+const StyledLabel = styled.h4`
+  font-size: ${fontSizes.smish};
+  font-weight: normal;
+  color: ${colors.green};
+  font-family: ${fonts.SFMono};
+  margin-top: 10px;
+  padding-top: 0;
+  text-align: center;
+`;
 
 const IndexPage = ({ location, data }) => (
   <Layout location={location}>
+    <StyledHeader style={{ paddingTop: '5px' }}>22% off the next 22 Projects 🤟🚀 </StyledHeader>
     <StyledMainContainer className="fillHeight">
       <Hero data={data.hero.edges} />
       <About data={data.about.edges} />
-      <StyledTitle>Get your new Website from as little as £89.99 or £28.99 per Month</StyledTitle>
+      <StyledTitle>Pay per Performance On Your Next Project or a Month to Month Basis</StyledTitle>
+      <StyledLabel>
+        We now offer a month to month service, no lengthy retainers required.
+      </StyledLabel>
       <Featured data={data.featured.edges} />
       <Projects data={data.projects.edges} />
       <Contact data={data.contact.edges} />
@@ -48,7 +73,9 @@ const IndexPage = ({ location, data }) => (
         </select>
         <input type="submit" value="SUBMIT" />
       </form>
-      <StyledTitle>264 Projects Completed.... and Counting</StyledTitle>
+      <StyledTitle style={{ fontSize: '45px' }}>
+        264 Projects Completed.... and Counting
+      </StyledTitle>
     </StyledMainContainer>
   </Layout>
 );
