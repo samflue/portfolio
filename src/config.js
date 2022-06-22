@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Bloc Labs | Front End Development Agency | Graphic Design',
+  siteTitle: 'Bloc Labs | Front End Development | Creative Agency',
   siteDescription:
     'Bloc Labs is a UK based  Website Developer & Design Agency that creates a captivating user experience. We like to create innovative Digital Products.',
   siteKeywords:
