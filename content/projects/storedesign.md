@@ -1,9 +1,12 @@
 ---
 date: '2021-06-21'
-title: 'Design an Ecommerce Store'
+title: 'Create Content for a High End Brand for Website and Social Media'
 tech:
-  - Figma
+  - Adobe
+  - Photography
+  - Social Media
+
 showInProjects: true
 ---
 
-Design an Ecommerce store using Figma. We was asked to make the store feel futuristic and "different" from the rest.
+We were hired to create the content for a well known high end Fashion brand. This incuded all images and video content for their online store and Social Media Channels.

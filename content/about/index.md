@@ -1,6 +1,6 @@
 ---
 title: 'About Us'
-avatar: 'profile-01.png'
+avatar: 'team-01.png'
 skills:
   - Front End
   - CMS
@@ -10,6 +10,8 @@ skills:
   - Branding
   - UI/UX
   - Graphic Design
+  - Content Creation
+  - Pay Per Click
 ---
 
 Hello! We got into this crazy world of development a little over 6 years ago. Since then we've made or contributed to

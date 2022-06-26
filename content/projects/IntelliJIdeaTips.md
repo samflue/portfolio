@@ -6,4 +6,4 @@ tech:
 showInProjects: true
 ---
 
-Create the design of a mobile app for a News Company.
+Create the design of a mobile app for a National News Company.

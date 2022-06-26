@@ -49,9 +49,9 @@ const Skill = styled.li`
 `;
 const StyledPic = styled.div`
   position: relative;
-  width: 40%;
-  max-width: 300px;
-  margin-left: 60px;
+  width: 70%;
+  max-width: 600px;
+  margin-left: 110px;
   ${media.tablet`margin: 60px auto 0;`};
   ${media.phablet`width: 70%;`};
   a {
@@ -63,14 +63,13 @@ const StyledPic = styled.div`
 const StyledAvatar = styled(Img)`
   position: relative;
   mix-blend-mode: multiply;
-  
-  
 `;
 const StyledAvatarLink = styled.a`
   width: 90%;
   position: relative;
   border-radius: ${theme.borderRadius};
-  margin-left: -20px;
+  margin-left: 20px;
+  margin-top: 20px;
   &:hover,
   &:focus {
     background: transparent;
@@ -124,7 +123,7 @@ const About = ({ data }) => {
           </SkillsContainer>
         </StyledContent>
         <StyledPic>
-          <StyledAvatarLink href={github}>
+          <StyledAvatarLink>
             <StyledAvatar fluid={avatar.childImageSharp.fluid} alt="Avatar" />
           </StyledAvatarLink>
         </StyledPic>

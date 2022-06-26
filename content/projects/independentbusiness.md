@@ -1,6 +1,6 @@
 ---
 date: '2021-08-02'
-title: 'Website for a smaller independent business'
+title: 'Website and online presence for a local family run business'
 tech:
   - HTML
   - CSS

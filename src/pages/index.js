@@ -16,8 +16,8 @@ const StyledTitle = styled.h4`
   margin: auto;
   font-size: 50px;
   ${media.desktop`font-size: 50px;`};
-  ${media.tablet`font-size: 40px;`};
-  ${media.tablet`width: 90%;`};
+  ${media.tablet`font-size: 30px;`};
+  ${media.tablet`width: 95%;`};
   width: 60%;
   text-align: center;
   display: flex;
@@ -46,11 +46,13 @@ const StyledLabel = styled.h4`
 
 const IndexPage = ({ location, data }) => (
   <Layout location={location}>
-    <StyledHeader style={{ paddingTop: '5px' }}>22% off the next 22 Projects 🤟🚀 </StyledHeader>
+    <StyledHeader style={{ paddingTop: '5px', fontSize: `16px` }}>
+      22% off the next 22 Projects 🤟🚀 (18 Left){' '}
+    </StyledHeader>
     <StyledMainContainer className="fillHeight">
       <Hero data={data.hero.edges} />
       <About data={data.about.edges} />
-      <StyledTitle>Pay per Performance On Your Next Project or a Month to Month Basis</StyledTitle>
+      <StyledTitle>Only Pay 50% Upfront On Your Next Project or a Month to Month Basis</StyledTitle>
       <StyledLabel>
         We now offer a month to month service, no lengthy retainers required.
       </StyledLabel>
